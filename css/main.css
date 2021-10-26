@@ -95,9 +95,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-
 /* -------------- BASE HEADER - FOOTER STYLES ------------*/
+
+.content-wrapper {
+  width: 90%
+}
 
 header,
 footer {
@@ -109,6 +111,10 @@ footer {
 
 /* Header Styles */
 
+header {
+  padding: 15px 0;
+}
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
@@ -116,26 +122,40 @@ header .content-wrapper {
   flex-flow: row wrap;
 }
 
-/* .header-divider {
-
-} */
+.header-divider {
+  width: 100%;
+  height: 1px;
+  margin: 20px 0;
+  background-color: #a1a0a0;
+}
 
 header nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 50%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 100%;
 }
 
 /* Footer */
 
-footer .footer-content {
+footer {
+  flex-direction: column;
+}
 
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer .contact {
+  margin-bottom: 50px;
 }
 
 footer .social-icons {
@@ -148,6 +168,10 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .copyright {
+  margin-bottom: 20px;
 }
 
 
@@ -180,11 +204,16 @@ aside {
   flex-flow: row wrap;
 }
 
-.features-items {
+.features .features-items {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.features article {
+  width: 62%;
+  margin: 30px 0;
 }
 
 
@@ -194,6 +223,15 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+.reviews h2 {
+  margin: 50px 0 30px 0;
+}
+
+.reviews h3 {
+  width: 55%;
+  margin-bottom: 20px;
 }
 
 
@@ -209,6 +247,14 @@ aside {
   flex-flow: row wrap;
 }
 
+.mission .content-wrapper {
+  padding: 50px 0;
+}
+
+.mission h2 {
+  margin-bottom: 20px;
+}
+
 /* Google Maps Figure */
 .map {
 
@@ -220,6 +266,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 50px 0;
 }
 
 
@@ -230,6 +277,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 50px 0;
 }
 
 .faq content-wrapper {
@@ -239,9 +287,14 @@ aside {
   flex-flow: row wrap;
 }
 
-.faq-items {
-
+.faq h2 {
+  margin-bottom: 40px;
 }
+
+.faq article {
+  margin: 25px 0;
+}
+
 
 
 
