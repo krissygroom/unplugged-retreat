@@ -476,8 +476,12 @@ aside p {
     margin-bottom: 0;
   }
 
+  footer h4 {
+    margin-bottom: 40px;
+  }
 
-  /**** Tablet Homepage ****/
+
+  /**** TABLET HOMEPAGE ****/
 
   /* Hero Section */
 
@@ -537,7 +541,7 @@ aside p {
   }
 
 
-  /**** Tablet About Page  ****/
+  /**** TABLET ABOUT PAGE  ****/
 
   /* Mission Section */
 
@@ -560,6 +564,11 @@ aside p {
     width: 80%;
   }
 
+  /* Contact Section */
+  .contact-section h4 {
+    margin-bottom: 20px;
+  }
+
   .contact-section .contact-content {
     display: flex;
     justify-content: space-between;
@@ -567,7 +576,7 @@ aside p {
   }
 
 
-  /**** Tablet FAQ Page  ****/
+  /**** TABLET FAQ PAGE  ****/
 
   /* not working - figure this out */
   .faq .content-wrapper {
@@ -585,8 +594,89 @@ aside p {
 
 }
 
+/****** DESKTOP STYLES *******/
+
 @media only screen and (min-width: 1200px) {
   /* Desktop styles here */
+
+  /* Base Styles */
+
+  .content-wrapper {
+    max-width: 950px;
+  }
+
+  /*** DESKTOP HOMEPAGE ***/
+
+  /* Header */
+  /* no changes */
+
+  /* Footer */
+  /* no changes */
+
+  /* Hero Section */
+  .hero-area h1 {
+    width: 65%;
+  }
+
+  /* Aside Section */
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+
+  .form,
+  .form-description {
+    width: 30%;
+  }
+
+  /* Features Section */
+  .features h2 {
+    width: 90%;
+  }
+
+  .features article {
+    flex-basis: 30%;
+  }
+
+  /* Reviews Section */
+  .reviews article div {
+    width: 43%;
+  }
+
+
+  /**** DESKTOP ABOUT PAGE ****/
+
+  .mission h2,
+  .contact-content {
+    width: 90%;
+  }
+
+  /* Contact Section */
+  .contact-section h4 {
+    margin-bottom: 40px;
+  }
+
+  /**** DESKTOP FAQ PAGE ****/
+  /* no changes */
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
 }
 
 @media print,
