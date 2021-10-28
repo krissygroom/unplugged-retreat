@@ -107,6 +107,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   text-align: left;
+  color: #e2e3ed;
 }
  
 ul, 
@@ -115,8 +116,8 @@ ol {
 }
  
 a {
-	color: #e2e3ed;
   text-decoration: none;
+  color: #e2e3ed;
 }
  
 h2 {
@@ -162,12 +163,18 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #202322;
 }
 
 /* Header Styles */
 
 header {
   padding: 15px 0;
+}
+
+header h1 {
+  font-size: 2.25rem;
+  font-weight: 500;
 }
 
 header .content-wrapper {
@@ -182,7 +189,7 @@ header .content-wrapper {
   width: 100%;
   height: 1px;
   margin: 20px 0;
-  background-color: #a1a0a0;
+  background-color: #e2e3ed5d;
 }
 
 header nav {
@@ -203,10 +210,12 @@ header nav ul {
 
 footer {
   flex-direction: column;
+  text-align: center;
 }
 
 footer .content-wrapper {
   width: 55%;
+
 }
 
 footer h4 {
@@ -259,6 +268,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 aside .content-wrapper {
@@ -266,11 +276,33 @@ aside .content-wrapper {
 }
 
 aside h3 {
-  padding-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 aside p {
-  padding-bottom: 40px;
+  margin-bottom: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+
+input[type=button] {
+  width: 100%;
+  margin-top: 20px;
+  padding: 1em 0;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* Retreat Features Section */
@@ -288,8 +320,9 @@ aside p {
 }
 
 .features article {
-  width: 62%;
+  width: 60%;
   margin: 30px 0;
+  text-align: center;
 }
 
 
@@ -299,6 +332,7 @@ aside p {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .reviews h2 {
@@ -321,6 +355,7 @@ aside p {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .mission h2 {
@@ -338,6 +373,7 @@ aside p {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .contact-section h2 {
@@ -361,6 +397,7 @@ aside p {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .faq .content-wrapper {
@@ -643,6 +680,7 @@ aside p {
   .faq .content-wrapper {
     justify-content: space-between;
     margin: 100px 0 50px 0;
+    align-items: flex-start;
   }
 
   .faq-content {
