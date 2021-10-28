@@ -146,6 +146,10 @@ address {
   margin: 50px 0;
 }
 
+.copyright {
+  font-size: 0.875rem;
+}
+
 
 
 
@@ -483,6 +487,15 @@ aside p {
 
   /* Base Styles */
 
+  h2 {
+    font-size: 2.25rem;
+  }
+   
+  h3, 
+  h4 {
+    font-size: 1.5rem;
+  }
+
   .content-wrapper {
     max-width: 640px;
     margin: 100px 0;
@@ -627,8 +640,6 @@ aside p {
 
 
   /**** TABLET FAQ PAGE  ****/
-
-  /* not working - figure this out */
   .faq .content-wrapper {
     justify-content: space-between;
     margin: 100px 0 50px 0;
@@ -650,6 +661,23 @@ aside p {
   /* Desktop styles here */
 
   /* Base Styles */
+
+  h2 {
+    font-size: 2.25rem;
+  }
+   
+  h3, 
+  h4 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+  }
+
+  .copyright {
+    font-size: 1.125rem;
+  }
 
   .content-wrapper {
     max-width: 950px;
