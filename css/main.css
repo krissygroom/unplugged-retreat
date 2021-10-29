@@ -723,6 +723,11 @@ input[type=button] {
     width: 45%;
   }
 
+  /* Map Figure */
+  .map figure {
+    padding-bottom: 45%;
+  }
+
   /* Contact Section */
   .contact-section h2 {
     margin-bottom: 50px;
@@ -839,6 +844,11 @@ input[type=button] {
   .contact-content {
     width: 90%;
   }
+
+    /* Map Figure */
+    .map figure {
+      padding-bottom: 37%;
+    }
 
   /* Contact Section */
   .contact-section h4 {
