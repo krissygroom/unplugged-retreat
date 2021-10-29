@@ -244,7 +244,7 @@ footer .contact {
 
 footer .social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -252,6 +252,16 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px; 
+  height: 40px;
+  font-size: 1.2rem;
+  margin-right: 20px;
+}
+
+footer .social-icons p:last-child {
+  margin-right: 0;
 }
 
 footer .copyright {
@@ -641,6 +651,14 @@ input[type=button] {
 
   footer h4 {
     margin-bottom: 40px;
+  }
+
+  footer .social-icons p {
+    margin-right: 40px;
+  }
+  
+  footer .social-icons p:last-child {
+    margin-right: 0;
   }
 
 
