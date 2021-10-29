@@ -782,7 +782,9 @@ input[type=button] {
   }
 
   /* Footer */
-  /* no changes */
+  .footer-content {
+    justify-content: space-around;
+  }
 
   /* Hero Section */
   .hero-area {
