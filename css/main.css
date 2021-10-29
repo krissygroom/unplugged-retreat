@@ -119,6 +119,14 @@ a {
   text-decoration: none;
   color: #e2e3ed;
 }
+
+img { 
+	width: 100%;
+}
+ 
+figure {
+  margin: 0;
+}
  
 h2 {
   font-family: 'Poppins', sans-serif;
@@ -172,11 +180,6 @@ header {
   padding: 15px 0;
 }
 
-header h1 {
-  font-size: 2.25rem;
-  font-weight: 500;
-}
-
 header .content-wrapper {
   display: flex;
   justify-content: center;
@@ -184,6 +187,14 @@ header .content-wrapper {
   flex-flow: row wrap;
   margin: 0;
   width: 100%;
+}
+
+header figure {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -253,13 +264,24 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
+  background: url(../img/jake-melara-30679-unsplash-cmp.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
 }
 
 .hero-area .content-wrapper {
-  margin: 30px 0;
+  margin: 30px 0;  
+}
+
+.hero-area h1 {
+  font-size: 2.25em;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif; 
+  font-weight: 500; 
+  line-height: 1.2; 
 }
 
 
@@ -308,6 +330,9 @@ input[type=button] {
 
 /* Retreat Features Section */
 .features {
+  background: url(../img/rawpixel-800820-unsplash1.jpg);
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -326,6 +351,9 @@ input[type=button] {
   text-align: center;
 }
 
+.features h2 {
+  margin-bottom: 60px;
+}
 
 /* Reviews Section */
 
@@ -334,6 +362,10 @@ input[type=button] {
   justify-content: center;
   flex-flow: row wrap;
   background-color: #2a423a;
+}
+
+.reviews figure {
+  margin-bottom: 20px;
 }
 
 .reviews h2 {
@@ -378,10 +410,10 @@ input[type=button] {
 }
 
 .contact-section h2 {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
-.contact-section address {
+.contact-section address p {
   margin: 15px 0;
 }
 
@@ -411,6 +443,11 @@ input[type=button] {
 
 .faq h2 {
   margin-bottom: 40px;
+  width: 100%;
+}
+
+.faq h4 {
+  margin-bottom: 20px;
 }
 
 .faq-content {
@@ -545,6 +582,14 @@ input[type=button] {
     padding: 32px 0;
   }
 
+  header figure {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
   header .header-divider {
     display: none;
   }
@@ -587,12 +632,18 @@ input[type=button] {
   /* Hero Section */
 
   .hero-area {
-    margin: 100px 0;
+    padding: 100px 0;
+    min-height: 600px;
   }
 
   .hero-area .content-wrapper,
   .hero-area h1 {
     margin: 0;
+  }
+
+  .hero-area h1 {
+    font-size: 3em;
+    line-height: 1.1;
   }
 
   /* Aside */
@@ -637,8 +688,9 @@ input[type=button] {
     justify-content: space-between;
   }
 
-  .reviews article div {
-    width: 48%;
+  .reviews article div,
+  .reviews article figure {
+    width: 49%;
   }
 
 
@@ -700,10 +752,6 @@ input[type=button] {
   /* Desktop styles here */
 
   /* Base Styles */
-
-  h2 {
-    font-size: 2.25rem;
-  }
    
   h3, 
   h4 {
@@ -725,14 +773,25 @@ input[type=button] {
   /*** DESKTOP HOMEPAGE ***/
 
   /* Header */
-  /* no changes */
+  header figure {
+    width: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
 
   /* Footer */
   /* no changes */
 
   /* Hero Section */
+  .hero-area {
+    padding: 50px 0;
+  }
+
   .hero-area h1 {
-    width: 65%;
+    width: 75%;
+    font-size: 3.75rem;
   }
 
   /* Aside Section */
@@ -755,10 +814,10 @@ input[type=button] {
   }
 
   /* Reviews Section */
-  .reviews article div {
-    width: 43%;
+  .reviews h2 {
+    margin-bottom: 90px;
   }
-
+ 
 
   /**** DESKTOP ABOUT PAGE ****/
 
